@@ -3,12 +3,12 @@
 "/assets/logo_eee.png" 
          alt="Dronetech logo" 
          align="right" 
-         width="300">
+         width="200">
 <img src=
 "/assets/IITBHU-Logo.jpg" 
          alt="technex logo" 
          align="left" 
-         width="150">
+         width="90">
 </div>
 <br><br><br>
 
