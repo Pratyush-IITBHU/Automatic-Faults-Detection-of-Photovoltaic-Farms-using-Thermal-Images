@@ -4,8 +4,8 @@
          alt="Dronetech logo" 
          align="right" 
          width="300">
-<img src=       
-"/IITBHU-Logo.jpg" 
+<img src=
+"/assets/IITBHU-Logo.jpg" 
          alt="technex logo" 
          align="left" 
          width="150">
@@ -17,11 +17,11 @@
 
 <div align="center">
 
-<img src="/single_detect.png" alt="Drone" align="left" width="230">
+<img src= "/assets/single_detect.png" alt="Drone" align="left" width="230">
 
-<img src="/a89.png" alt="Drone" align="right" width="230">
+<img src= "/assets/a89.png" alt="Drone" align="right" width="230">
 
-<img src="/a83.png" alt="Drone" align="center" width="230">
+<img src= "/assets/a83.png" alt="Drone" align="center" width="230">
 
 </div>
 <br>
@@ -41,7 +41,7 @@
 - <B>OM PRAKASH</B>
 
 <div align="center">
-<img src="/drone2.jpg" alt="Drone" align="center" width="490">
+<img src= "/assets/drone2.jpg" alt="Drone" align="center" width="490">
 </div>
 
 ## Table of contents
@@ -83,8 +83,8 @@
   <br>
 
 <div align = "center">
- <img src="/quadcopter.png" align = "left" width = 350>
- <img src="/thermal.png" align = "right" width = 360>
+ <img src= "/assets/quadcopter.png" align = "left" width = 350>
+ <img src= "/assets/thermal.png" align = "right" width = 360>
 </div>
 <div align = "left">
 <br><br><br>
@@ -103,13 +103,13 @@
 
 <p align = "justify">Since it is known that photovoltaic modules consist of PV cell circuits sealed in an environmentally protective laminate and are the fundamental building blocks of PV systems. Photovoltaic panels include one or more PV modules assembled as a pre-wired, field-installable unit. A photovoltaic array is the complete power-generating unit, consisting of any number of PV modules and panels. Irradiance and temperature are some of the factors that decide the efficiency of PV modules and hence can be used as parameters for fault detection in PV arrays. Irradiance is defined as the measure of the power density of sunlight received and is measured in watt per metre square. With the increasing solar irradiance both the open-circuit voltage and the short circuit current increase and hence the maximum power point varies. Temperature plays another major factor. As the temperature increases, the rate of photon generation increases thus reverse saturation current increases rapidly and this reduces the band gap. Hence this leads to marginal changes in current but major changes in voltage. Temperature acts like a negative factor affecting solar cell performance. Hence Temperature difference is used by us as main parameter for detection of faults, because defects and faults in PV modules and arrays almost always generate some temperature difference on the laminated semiconductor panel screen. 
 <p align="center">
- <img src="/graphy.png">
+ <img src= "/assets/graphy.png">
  <p align="center">
  <i>Equivalent circuit of a PV cell</i><br> 
 </p>
 
 <p align="center">
- <img src="/graph.png">
+ <img src= "/assets/graph.png">
  <p align="center">
  <i>Parameters of circuit</i><br> 
 </p>
@@ -144,7 +144,7 @@ PANet is used as a neck in YOLO v5 to get feature pyramids.
 3. Head: The model Head is mostly responsible for the final detection step. It uses anchor boxes to construct final output vectors with class probabilities, objectness scores, and bounding boxes.
 
 <p align="center">
- <img src="/yolov5.png">
+ <img src= "/assets/yolov5.png">
  <p align="center">
  <i>YOLO ARCHITECTURE</i><br> 
 </p>
@@ -157,7 +157,7 @@ PANet is used as a neck in YOLO v5 to get feature pyramids.
 
 
 <p align="center">
- <img src="/bus.jpg" align="center" width= "380">
+ <img src= "/assets/bus.jpg" align="center" width= "380">
  <p align="center">
  <i>Bounding boxes around detected objects</i><br> 
 </p>
@@ -169,22 +169,22 @@ The basic data used for this project is **Photovoltaic thermal image dataset whi
 Dataset contains **3 folders** each containing **1009 images**. **1st folder** stores **pre-processed thermal images** taken by UAV copter, the **2nd folder** contains the **equivalent grayscale** images of the same thermal image taken through copter, while **3rd folder** contains **masked image** showing the separated single defected cells or contiguous sequence of faulty cells (string). Each folder contains images of size **512 X 640 pixels**. 
 <div align="center">
 
-<img src="/imgFC61.png" alt="Drone" align="left" width="230">
+<img src= "/assets/imgFC61.png" alt="Drone" align="left" width="230">
 
-<img src="/mask61.png" alt="Drone" align="right" width="230">
+<img src= "/assets/mask61.png" alt="Drone" align="right" width="230">
 
-<img src="/img61.png" alt="Drone" align="center" width="230">
+<img src= "/assets/img61.png" alt="Drone" align="center" width="230">
 
 </div>
 <br><br>
 
 <div align="center">
 
-<img src="/imgFC59.png" alt="Drone" align="left" width="230">
+<img src= "/assets/imgFC59.png" alt="Drone" align="left" width="230">
 
-<img src="/mask59.png" alt="Drone" align="right" width="230">
+<img src= "/assets/mask59.png" alt="Drone" align="right" width="230">
 
-<img src="/img59.png" alt="Drone" align="center" width="230">
+<img src= "/assets/img59.png" alt="Drone" align="center" width="230">
 
 </div>
 <br><br>
@@ -192,7 +192,7 @@ This data is modified in three different forms so as to obtain three different d
 We made bounding boxes around the faulty cells and strings using the masked images provided to us. But for PV array and single cell detection we made bounding boxes using app.roboflow.com .
 <br>
 <div align="center">
-<img src="/roboflow2.jpeg" alt="Drone" align="center" width="430"></div>
+<img src= "/assets/roboflow2.jpeg" alt="Drone" align="center" width="430"></div>
 <br>
 
 For PV array we made on an average 4 bounding boxes per image for about 200 images. And on an average 30 bounding boxes per image for 72 images for single PV cell detection.
@@ -212,7 +212,7 @@ Predictions are reasonably acceptable. Detections do not have any false positive
    
    <br>
     <div align="center">
-    <img src="/array.jpeg" alt="Drone" align="center" width="430"></div>
+    <img src= "/assets/array.jpeg" alt="Drone" align="center" width="430"></div>
    <br>
    
    #### **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Single PV modeule detection</ins>**
@@ -221,7 +221,7 @@ Predictions are reasonably acceptable. Detections do not have any false positive
 
   <br>
     <div align="center">
-    <img src="/single12.png" alt="Drone" align="center" width="430"></div>
+    <img src= "/assets/single12.png" alt="Drone" align="center" width="430"></div>
    <br>
 
    #### **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>PV module with fault</ins>**
@@ -230,17 +230,17 @@ Predictions are reasonably acceptable. Detections do not have any false positive
 
   <br>
   <div align="center">
-  <img src="/fault.jpeg" alt="Drone" align="center" width="430"></div>
+  <img src= "/assets/fault.jpeg" alt="Drone" align="center" width="430"></div>
   <br>
    
 ### **<ins>Model Setup Requirements</ins>**
 | Requirements                 | Link(s)                                                          |
    |:-----------------:|:-----------------------------------------------------------------:|
-   | <div align="center"><img src="/python.png" alt="Drone" align="center" width="70">| [python3](https://www.python.org/downloads/) |
-   | <div align="center"><img src="/pytorch.png" alt="Drone" align="center">|[torch-python](https://pytorch.org/)|
-   | <div align="center"><img src="/text.png" alt="Drone" align="center" width="130"> | [pakages](https://github.com/Pratyush-IITBHU/Automatic-Faults-Detection-of-Photovoltaic-Farms-using-Thermal-Images/blob/main/requirements.txt) |
-   | <div align="center"><img src="/logo.png" alt="Drone" align="center" width="130" height="30"> | [Bounding box maker](https://app.roboflow.com/) |
-   | <div align="center"><img src="/github.png" alt="Drone" align="center" width="100" > | [Exploratory Repository](https://github.com/Pratyush-IITBHU/Automatic-Faults-Detection-of-Photovoltaic-Farms-using-Thermal-Images) |
+   | <div align="center"><img src= "/assets/python.png" alt="Drone" align="center" width="70">| [python3](https://www.python.org/downloads/) |
+   | <div align="center"><img src= "/assets/pytorch.png" alt="Drone" align="center">|[torch-python](https://pytorch.org/)|
+   | <div align="center"><img src= "/assets/text.png" alt="Drone" align="center" width="130"> | [pakages](https://github.com/Pratyush-IITBHU/Automatic-Faults-Detection-of-Photovoltaic-Farms-using-Thermal-Images/blob/main/requirements.txt) |
+   | <div align="center"><img src= "/assets/logo.png" alt="Drone" align="center" width="130" height="30"> | [Bounding box maker](https://app.roboflow.com/) |
+   | <div align="center"><img src= "/assets/github.png" alt="Drone" align="center" width="100" > | [Exploratory Repository](https://github.com/Pratyush-IITBHU/Automatic-Faults-Detection-of-Photovoltaic-Farms-using-Thermal-Images) |
 
 
 ### **<ins>Initialisation</ins>**
@@ -265,7 +265,7 @@ Predictions are reasonably acceptable. Detections do not have any false positive
          </ul>
 
   <div align="center">
-  <img src="/soil.png" alt="Drone" align="center" width="430"></div>
+  <img src= "/assets/soil.png" alt="Drone" align="center" width="430"></div>
   <br>
 
   - **Diode Fault:**
@@ -275,23 +275,23 @@ Predictions are reasonably acceptable. Detections do not have any false positive
          </ul>
   <br>    
   <div align="center">
-  <img src="/diode.png" alt="Drone" align="center" width="430"></div>
+  <img src= "/assets/diode.png" alt="Drone" align="center" width="430"></div>
   <br>
 
 - ### Electrical Faults:
      
   <div align="center">
-  <img src="/classi.png" alt="Drone" align="center" width="430"></div>
+  <img src= "/assets/classi.png" alt="Drone" align="center" width="430"></div>
   <br>
 
   <br>    
   <div align="center">
-  <img src="/trical_fault2.png" alt="Drone" align="center" width="400"></div>
+  <img src= "/assets/trical_fault2.png" alt="Drone" align="center" width="400"></div>
   <br>
 <br>
   <br>    
   <div align="center">
-  <img src="/trical_fault.png" alt="Drone" align="center" width="430"></div>
+  <img src= "/assets/trical_fault.png" alt="Drone" align="center" width="430"></div>
   <br>
 
   <ul>
@@ -310,7 +310,7 @@ Predictions are reasonably acceptable. Detections do not have any false positive
 
 <br>    
   <div align="center">
-  <img src="/droni1.png" alt="Drone" align="center" width="400"></div>
+  <img src= "/assets/droni1.png" alt="Drone" align="center" width="400"></div>
   <br>
 
 - Navigation packages from ROS Navigation stack are added to Drone controller.Also Fine tuning mapping and navigating parameters is done for best results.
@@ -319,11 +319,11 @@ Predictions are reasonably acceptable. Detections do not have any false positive
 
 <div align="center">
 
-<img src="/slam1.jpg" alt="Drone" align="left" width="200">
+<img src= "/assets/slam1.jpg" alt="Drone" align="left" width="200">
 
-<img src="/slam2.jpg" alt="Drone" align="right" width="200">
+<img src= "/assets/slam2.jpg" alt="Drone" align="right" width="200">
 
-<img src="/slam3.jpg" alt="Drone" align="center" width="200">
+<img src= "/assets/slam3.jpg" alt="Drone" align="center" width="200">
 
 </div>
 <br>
@@ -331,7 +331,7 @@ Predictions are reasonably acceptable. Detections do not have any false positive
 - However due to lack of thermal camera plugin in gazebo, complete testing on simulation of drone was done.
 
   <div align="center">
-  <img src="/droni2.png" alt="Drone" align="center" width="400"></div>
+  <img src= "/assets/droni2.png" alt="Drone" align="center" width="400"></div>
 
 
 # Conclusion
