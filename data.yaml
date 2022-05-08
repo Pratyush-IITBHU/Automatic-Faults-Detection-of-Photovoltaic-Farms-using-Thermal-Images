@@ -1,0 +1,5 @@
+path: solar_modules/
+nc: 1
+names: ['modules']
+train: train/images
+val: val/images
