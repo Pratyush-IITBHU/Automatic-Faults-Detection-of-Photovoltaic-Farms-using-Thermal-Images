@@ -1,0 +1,1 @@
+# Automatic-Faults-Detection-of-Photovoltaic-Farms-using-Thermal-Images
